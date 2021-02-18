@@ -316,11 +316,11 @@ body {
 [data-anime="scroll"] {
   opacity: 0;
   transform: translate3d(-60px, 0, 0);
+  transition: 1s ease;
 }
 
 [data-anime="scroll"].ativo {
   opacity: 1;
-  transition: 2s ease;
   transform: translate3d(0, 0, 0);
 }
 
